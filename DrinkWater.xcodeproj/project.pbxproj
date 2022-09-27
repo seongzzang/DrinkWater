@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		698DAC7428E3383F00995ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC7328E3383F00995ECB /* AppDelegate.swift */; };
 		698DAC7628E3383F00995ECB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC7528E3383F00995ECB /* SceneDelegate.swift */; };
-		698DAC7828E3383F00995ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC7728E3383F00995ECB /* ViewController.swift */; };
 		698DAC7B28E3383F00995ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698DAC7928E3383F00995ECB /* Main.storyboard */; };
 		698DAC7D28E3384300995ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698DAC7C28E3384300995ECB /* Assets.xcassets */; };
 		698DAC8028E3384300995ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698DAC7E28E3384300995ECB /* LaunchScreen.storyboard */; };
+		698DAC8828E338F200995ECB /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC8728E338F200995ECB /* AlertListViewController.swift */; };
+		698DAC8D28E33A8B00995ECB /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC8B28E33A8B00995ECB /* AlertListCell.swift */; };
+		698DAC8E28E33A8B00995ECB /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698DAC8C28E33A8B00995ECB /* AlertListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		698DAC7028E3383F00995ECB /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698DAC7328E3383F00995ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698DAC7528E3383F00995ECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		698DAC7728E3383F00995ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		698DAC7A28E3383F00995ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		698DAC7C28E3384300995ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		698DAC7F28E3384300995ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		698DAC8128E3384300995ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698DAC8728E338F200995ECB /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		698DAC8B28E33A8B00995ECB /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		698DAC8C28E33A8B00995ECB /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				698DAC7328E3383F00995ECB /* AppDelegate.swift */,
 				698DAC7528E3383F00995ECB /* SceneDelegate.swift */,
-				698DAC7728E3383F00995ECB /* ViewController.swift */,
 				698DAC7928E3383F00995ECB /* Main.storyboard */,
 				698DAC7C28E3384300995ECB /* Assets.xcassets */,
 				698DAC7E28E3384300995ECB /* LaunchScreen.storyboard */,
 				698DAC8128E3384300995ECB /* Info.plist */,
+				698DAC8728E338F200995ECB /* AlertListViewController.swift */,
+				698DAC8B28E33A8B00995ECB /* AlertListCell.swift */,
+				698DAC8C28E33A8B00995ECB /* AlertListCell.xib */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				698DAC8028E3384300995ECB /* LaunchScreen.storyboard in Resources */,
 				698DAC7D28E3384300995ECB /* Assets.xcassets in Resources */,
+				698DAC8E28E33A8B00995ECB /* AlertListCell.xib in Resources */,
 				698DAC7B28E3383F00995ECB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				698DAC7828E3383F00995ECB /* ViewController.swift in Sources */,
 				698DAC7428E3383F00995ECB /* AppDelegate.swift in Sources */,
 				698DAC7628E3383F00995ECB /* SceneDelegate.swift in Sources */,
+				698DAC8D28E33A8B00995ECB /* AlertListCell.swift in Sources */,
+				698DAC8828E338F200995ECB /* AlertListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
