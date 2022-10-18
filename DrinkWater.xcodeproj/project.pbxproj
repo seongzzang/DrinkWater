@@ -15,6 +15,7 @@
 		698DAC8828E338F200995ECB /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC8728E338F200995ECB /* AlertListViewController.swift */; };
 		698DAC8D28E33A8B00995ECB /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC8B28E33A8B00995ECB /* AlertListCell.swift */; };
 		698DAC8E28E33A8B00995ECB /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698DAC8C28E33A8B00995ECB /* AlertListCell.xib */; };
+		69B31E9228FEEBC9005300E5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B31E9128FEEBC9005300E5 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		698DAC8728E338F200995ECB /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
 		698DAC8B28E33A8B00995ECB /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
 		698DAC8C28E33A8B00995ECB /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		69B31E9128FEEBC9005300E5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				698DAC8728E338F200995ECB /* AlertListViewController.swift */,
 				698DAC8B28E33A8B00995ECB /* AlertListCell.swift */,
 				698DAC8C28E33A8B00995ECB /* AlertListCell.xib */,
+				69B31E9128FEEBC9005300E5 /* Alert.swift */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				698DAC7428E3383F00995ECB /* AppDelegate.swift in Sources */,
 				698DAC7628E3383F00995ECB /* SceneDelegate.swift in Sources */,
 				698DAC8D28E33A8B00995ECB /* AlertListCell.swift in Sources */,
+				69B31E9228FEEBC9005300E5 /* Alert.swift in Sources */,
 				698DAC8828E338F200995ECB /* AlertListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
