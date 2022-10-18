@@ -11,7 +11,7 @@
         <!--물 마시기-->
         <scene sceneID="uHC-gM-fAl">
             <objects>
-                <tableViewController id="ahU-mq-Prr" customClass="AlertListViewController" customModule="DrinkWater" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="ahU-mq-Prr" customClass="AlertListViewController" customModule="DrinkWater" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="4Fw-YR-8jT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="487" y="119"/>
         </scene>
-        <!--Add Alert ViewC Ontroller-->
+        <!--Add Alert View Controller-->
         <scene sceneID="9Gc-jy-yQD">
             <objects>
-                <viewController storyboardIdentifier="AddAlertViewController" id="oC9-p6-fAg" customClass="AddAlertViewCOntroller" customModule="DrinkWater" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddAlertViewController" id="oC9-p6-fAg" customClass="AddAlertViewController" customModule="DrinkWater" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nob-XN-Vol">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,7 +109,7 @@
         <!--Navigation Controller-->
         <scene sceneID="irq-h3-kus">
             <objects>
-                <navigationController id="WGs-Td-CJe" sceneMemberID="viewController">
+                <navigationController useStoryboardIdentifierAsRestorationIdentifier="YES" id="WGs-Td-CJe" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="SO2-tI-4NS">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
