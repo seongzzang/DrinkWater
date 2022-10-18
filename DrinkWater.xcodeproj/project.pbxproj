@@ -16,6 +16,7 @@
 		698DAC8D28E33A8B00995ECB /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DAC8B28E33A8B00995ECB /* AlertListCell.swift */; };
 		698DAC8E28E33A8B00995ECB /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698DAC8C28E33A8B00995ECB /* AlertListCell.xib */; };
 		69B31E9228FEEBC9005300E5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B31E9128FEEBC9005300E5 /* Alert.swift */; };
+		69B31E9428FEEE71005300E5 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B31E9328FEEE71005300E5 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		698DAC8B28E33A8B00995ECB /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
 		698DAC8C28E33A8B00995ECB /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 		69B31E9128FEEBC9005300E5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		69B31E9328FEEE71005300E5 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				698DAC8B28E33A8B00995ECB /* AlertListCell.swift */,
 				698DAC8C28E33A8B00995ECB /* AlertListCell.xib */,
 				69B31E9128FEEBC9005300E5 /* Alert.swift */,
+				69B31E9328FEEE71005300E5 /* AddAlertViewController.swift */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				698DAC8D28E33A8B00995ECB /* AlertListCell.swift in Sources */,
 				69B31E9228FEEBC9005300E5 /* Alert.swift in Sources */,
 				698DAC8828E338F200995ECB /* AlertListViewController.swift in Sources */,
+				69B31E9428FEEE71005300E5 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
