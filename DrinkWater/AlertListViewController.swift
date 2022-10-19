@@ -18,10 +18,12 @@ class AlertListViewController: UITableViewController {
         
         let nibName = UINib(nibName: "AlertListCell", bundle: nil)
         tableView.register(nibName, forCellReuseIdentifier: "AlertListCell")
+        self.tableView.reloadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         alerts = alertList()
+        self.tableView.reloadData()
     }
     
     @IBAction func addAlertButtonAction(_ sender: UIBarButtonItem) {
